@@ -26,6 +26,6 @@ $db->addServer(array (
   'password' => '4FVAY6pDC3',
   'charset' => 'utf8mb4',
   'database' => 'epiz_34234961_typecho',
-  'engine' => 'InnoDB',
+  'engine' => 'MyISAM',
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
 \Typecho\Db::set($db);
